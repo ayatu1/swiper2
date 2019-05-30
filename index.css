@@ -1,0 +1,23 @@
+.images {
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.images img {
+    position: absolute;
+    top: 0;
+    transition: left 1.5s;
+}
+
+.leave {
+    left: -100%;
+}
+.current {
+    left: 0;
+    z-index: 1;
+}
+.enter {
+    left: 100%;
+}
