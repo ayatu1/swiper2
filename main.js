@@ -8,6 +8,7 @@ setInterval(function () {
     getNode(n).one('transitionend', function () {
         makeEnter($(this))
     })
+    n ++ 
 }, 3000)
 
 function adjustNum(n) {
